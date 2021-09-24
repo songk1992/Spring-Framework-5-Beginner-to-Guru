@@ -49,4 +49,9 @@ git remote add origin https://github.com/songk1992/Spring-Framework-5-Beginner-t
 git push -u origin main
 ```
 
+```
+git add -A
+git commit -m ""
+git push -u origin main
 
+```
