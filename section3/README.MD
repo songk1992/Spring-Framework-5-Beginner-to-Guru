@@ -19,7 +19,7 @@ https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
 
 <br />
 
-[강의 코드](https://github.com/springframeworkguru/spring5webapp "스프링 구루")
+[강의 코드](https://github.com/springframeworkguru/sfg-di "스프링 구루")
 
 [메인](../README.MD "스프링 구루")
 
