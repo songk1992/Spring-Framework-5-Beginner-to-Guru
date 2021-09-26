@@ -47,7 +47,7 @@
 
     <scm>
         <developerConnection>
-            scm:git:git@github.com:songk1992/Spring-Framework-5-Beginner-to-Guru.git
+            scm:git:https://github.com/songk1992/Spring-Framework-5-Beginner-to-Guru.git
         </developerConnection>
       <tag>pet-clinic-0.0.1</tag>
   </scm>
