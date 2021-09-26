@@ -1,9 +1,6 @@
 package guru.spring5.section3;
 
-import guru.spring5.section3.controllers.ConstructorInjectedController;
-import guru.spring5.section3.controllers.MyController;
-import guru.spring5.section3.controllers.PropertyInjectedController;
-import guru.spring5.section3.controllers.SetterInjectedController;
+import guru.spring5.section3.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -14,6 +11,9 @@ public class Section3Application {
     public static void main(String[] args) {
 
         ApplicationContext ctx = SpringApplication.run(Section3Application.class, args);
+
+        I18nController i18nController = (I18nController) ctx.getBean("i18nController");
+        System.out.println(i18nController.sayGreeting());
 
         MyController myController = (MyController) ctx.getBean("myController");
 
