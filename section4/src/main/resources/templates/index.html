@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link th:href="@{/css/main/index.css}" rel="stylesheet">
 </head>
-<body>
-    Hello
+<body class="bg">
 
-    <h1 th:text="${jokes.toString()}"></h1>
+<div class="box">
+    <span id="joke-text" th:text="${joke.toString()}"></span>
+    <span class="input-cursor">|</span>
+</div>
+
+<script th:src="@{/js/index.js}"></script>
 </body>
 </html>
