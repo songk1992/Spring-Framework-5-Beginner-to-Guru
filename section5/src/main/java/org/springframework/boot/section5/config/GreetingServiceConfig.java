@@ -1,5 +1,7 @@
 package org.springframework.boot.section5.config;
 
+import org.springframework.boot.section5.repositories.EnglishGreetingRepository;
+import org.springframework.boot.section5.repositories.EnglishGreetingRepositoryImpl;
 import org.springframework.boot.section5.services.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +23,17 @@ public class GreetingServiceConfig {
     I18nKoreanGreetingService i18nService(){
         return new I18nKoreanGreetingService();
     }
-    
+
+    @Bean
+    EnglishGreetingRepository englishGreetingRepository(){
+        return new EnglishGreetingRepositoryImpl();
+    }
+
+    @Profile("ENG")
+    @Bean("i18nService")
+    I18nEnglishGreetingService i18nEnglishGreetingService(EnglishGreetingRepository englishGreetingRepository){
+        return new I18nEnglishGreetingService(englishGreetingRepository);}
+
     @Primary
     @Bean
     PrimaryGreetingService primaryGreetingService(){
