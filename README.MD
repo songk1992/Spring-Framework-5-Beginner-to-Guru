@@ -38,6 +38,8 @@ https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
 ### [Section 3 : 스프링 부트 Dependency Injection](./section3/README.MD "스프링 구루")
 
 ### [Section 4 : 스프링 부트 Chuck Norris Joke Generator](./section4/README.MD "스프링 구루")
+
+### [Section 5 : 스프링 부트 Three Different Configurations](./section5/README.MD "스프링 구루")
 <br />
 
 
