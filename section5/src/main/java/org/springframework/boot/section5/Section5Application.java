@@ -4,9 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.section5.controllers.*;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"org.springframework.boot.section5","com.springframework.pets"})
 @SpringBootApplication
 public class Section5Application {
 
