@@ -3,6 +3,7 @@ package org.springframework.boot.section6;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.section6.controllers.*;
+import org.springframework.boot.section6.datasource.FakeDataSource;
 import org.springframework.boot.section6.services.PrototypeBean;
 import org.springframework.boot.section6.services.SingletonBean;
 import org.springframework.context.ApplicationContext;
@@ -47,6 +48,11 @@ public class Section6Application {
         System.out.println(prototypeBean1.getMyScope());
         PrototypeBean prototypeBean2 = ctx.getBean(PrototypeBean.class);
         System.out.println(prototypeBean2.getMyScope());
+
+        FakeDataSource fakeDataSource = ctx.getBean(FakeDataSource.class);
+        System.out.println(fakeDataSource.getUserName());
+        System.out.println(fakeDataSource.getPassword());
+        System.out.println(fakeDataSource.getJdbcUrl());
     }
 
 }
