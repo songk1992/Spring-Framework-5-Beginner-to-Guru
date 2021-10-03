@@ -1,7 +1,7 @@
 spring:
   profiles:
-    active: CAT,ENG, qa
+    active: CAT,ENG, dev
 guru:
-  username:ymlExampleUser
-  password:ymlExamplePassword
-  jdbcurl:ymlExampleUrlForDb
+  username: ymlExampleUser
+  password: ymlExamplePassword
+  jdbcurl: ymlExampleUrlForDb
