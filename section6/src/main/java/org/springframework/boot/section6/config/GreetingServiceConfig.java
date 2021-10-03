@@ -9,15 +9,14 @@ import org.springframework.boot.section6.repositories.EnglishGreetingRepositoryI
 import org.springframework.boot.section6.services.*;
 import org.springframework.context.annotation.*;
 
-@PropertySource("classpath:datasource.properties")
 @ImportResource("classpath:sfgdi-config.xml")
 @Configuration
 public class GreetingServiceConfig {
 
     @Bean
-    FakeDataSource fakeDataSource(@Value("${guru.user_name}")String userName,
+    FakeDataSource fakeDataSource(@Value("${guru.username}")String userName,
                                   @Value("${guru.password}")String password,
-                                  @Value("${guru.jdbc_url}")String jdbcUrl){
+                                  @Value("${guru.jdbcurl}")String jdbcUrl){
         FakeDataSource fakeDataSource = new FakeDataSource();
         fakeDataSource.setUserName(userName);
         fakeDataSource.setPassword(password);
