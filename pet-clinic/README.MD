@@ -2,7 +2,7 @@
 
 <br />
 
-This source code is based from<br />
+This source code is based from <br />
 Spring Framework 5: Beginner to Guru in Udemy by John Thompson.<br />
 I am only showing it in my Github for<br />
 portfolio and personal study purposes as mentioned in section1.<br /><br />
@@ -16,6 +16,10 @@ https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
 # 📓 출처
 
 [ Spring Framework 5: Beginner to Guru ](https://www.udemy.com/course/spring-framework-5-beginner-to-guru/ "udemy")
+
+[ Spring Framework 5: Spring Pet Clinic Git Repo ](https://github.com/spring-projects/spring-petclinic "github")
+
+
 
 <br />
 
