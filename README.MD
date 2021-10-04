@@ -40,6 +40,10 @@ https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
 ### [Section 4 : 스프링 부트 Chuck Norris Joke Generator](./section4/README.MD "스프링 구루")
 
 ### [Section 5 : 스프링 부트 Three Different Configurations](./section5/README.MD "스프링 구루")
+
+### [Section 6 : 스프링 부트 External Properties](./section6/README.MD "스프링 구루")
+
+### [Section 7 : 스프링 부트 Web MVC](./section7/README.MD "스프링 구루")
 <br />
 
 
