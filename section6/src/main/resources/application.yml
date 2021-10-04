@@ -9,6 +9,11 @@ guru:
   password: ymlExamplePassword
   jdbcurl: ymlExampleUrlForDb
 
+hello:
+  username: ymlHelloExampleUser
+  password: ymlHelloExamplePassword
+  jdbcurl: ymlHelloExampleUrlForDb
+
 
 ---
 spring:
