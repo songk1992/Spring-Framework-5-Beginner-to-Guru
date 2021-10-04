@@ -3,6 +3,7 @@ package org.springframework.boot.section6;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.section6.config.SfgConfiguration;
+import org.springframework.boot.section6.config.SfgConstructorConfig;
 import org.springframework.boot.section6.controllers.*;
 import org.springframework.boot.section6.datasource.FakeDataSource;
 import org.springframework.boot.section6.services.PrototypeBean;
@@ -60,6 +61,12 @@ public class Section6Application {
         System.out.println(sfgConfiguration.getUserName());
         System.out.println(sfgConfiguration.getPassword());
         System.out.println(sfgConfiguration.getJdbcUrl());
+
+        System.out.println("------------ Constructor Binding");
+        SfgConstructorConfig sfgConstructorConfig = ctx.getBean(SfgConstructorConfig.class);
+        System.out.println(sfgConstructorConfig.getUserName());
+        System.out.println(sfgConstructorConfig.getPassword());
+        System.out.println(sfgConstructorConfig.getJdbcUrl());
     }
 
 }
