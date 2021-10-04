@@ -2,6 +2,7 @@ package org.springframework.boot.section6;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.section6.config.SfgConfiguration;
 import org.springframework.boot.section6.controllers.*;
 import org.springframework.boot.section6.datasource.FakeDataSource;
 import org.springframework.boot.section6.services.PrototypeBean;
@@ -53,6 +54,12 @@ public class Section6Application {
         System.out.println(fakeDataSource.getUserName());
         System.out.println(fakeDataSource.getPassword());
         System.out.println(fakeDataSource.getJdbcUrl());
+
+        System.out.println("------------ Config Props Bean");
+        SfgConfiguration sfgConfiguration = ctx.getBean(SfgConfiguration.class);
+        System.out.println(sfgConfiguration.getUserName());
+        System.out.println(sfgConfiguration.getPassword());
+        System.out.println(sfgConfiguration.getJdbcUrl());
     }
 
 }
