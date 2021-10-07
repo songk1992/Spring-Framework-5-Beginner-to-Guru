@@ -32,3 +32,6 @@ JPA 스터디
 <!-- JPA Model -->
 
 <img align="center" src="src/main/resources/static/img/jhipster_jdl.png" alt="https://start.jhipster.tech/jdl-studio/#/view/0cbe95ba-b189-4ade-8b1a-310a3360c895"/>
+
+<img align="center" src="src/main/resources/static/img/h2_console.PNG" alt="http://localhost:8080/h2-console/"/>
+
