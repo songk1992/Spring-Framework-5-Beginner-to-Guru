@@ -1,9 +1,6 @@
 package com.learn.spring.section8.bootstrap;
 
 import com.learn.spring.section8.domain.*;
-import com.learn.spring.section8.repositories.CategoryRepository;
-import com.learn.spring.section8.repositories.RecipeRepository;
-import com.learn.spring.section8.repositories.UnitOfMeasureRepository;
 import com.learn.spring.section8.service.CategoryService;
 import com.learn.spring.section8.service.RecipeService;
 import com.learn.spring.section8.service.UnitOfMeasureService;
@@ -13,8 +10,6 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
-import java.util.Set;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -96,7 +91,7 @@ public class DataLoader implements CommandLineRunner {
 
         kimchiRecipe.getCategories().add(koreanCategory);
 
-        kimchiRecipe.getIngredient().add(new Ingredient("배추", new BigDecimal(1), eachUom, kimchiRecipe));
+        kimchiRecipe.getIngredient().add(new Ingredient("배추", new BigDecimal(1), eachUom));
 
         kimchiRecipe.getCategories().add(koreanCategory);
 
