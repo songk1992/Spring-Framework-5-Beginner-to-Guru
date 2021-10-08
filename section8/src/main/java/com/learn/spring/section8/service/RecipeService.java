@@ -19,4 +19,8 @@ public class RecipeService {
     public List<Recipe> saveAll(List<Recipe> list) {
         return Lists.newArrayList(recipeRepository.saveAll(list));
     }
+
+    public List<Recipe> findAll(){
+        return Lists.newArrayList(recipeRepository.findAll());
+    }
 }
