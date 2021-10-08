@@ -35,3 +35,7 @@ JPA 스터디
 
 <img align="center" src="src/main/resources/static/img/h2_console.PNG" alt="http://localhost:8080/h2-console/"/>
 
+
+추가 자료
+
+https://www.baeldung.com/spring-boot-data-sql-and-schema-sql

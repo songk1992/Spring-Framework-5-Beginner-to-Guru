@@ -5,6 +5,7 @@ INSERT INTO category (description) VALUES ('Japanese');
 INSERT INTO category (description) VALUES ('Western');
 INSERT INTO category (description) VALUES ('Italian');
 INSERT INTO category (description) VALUES ('Mexican');
+INSERT INTO unit_of_measure (description) VALUES ('Each');
 INSERT INTO unit_of_measure (description) VALUES ('Teaspoon');
 INSERT INTO unit_of_measure (description) VALUES ('Tablespoon');
 INSERT INTO unit_of_measure (description) VALUES ('Cup');
