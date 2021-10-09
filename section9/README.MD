@@ -28,3 +28,7 @@ https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
 <br />
 
 LOMBOK 스터디
+
+<img align="center" src="src/main/resources/static/img/lombok1.png" alt="롬복적용 스샷"/>
+
+<img align="center" src="src/main/resources/static/img/lombok1.png" alt="JPA Buddy 스샷"/>
