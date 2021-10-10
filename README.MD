@@ -49,7 +49,8 @@ https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
 
 ### [Section 9 : 스프링 부트 Lombok](./section9/README.MD "스프링 구루")
 
-### [Section 10 : 스프링 부트 Testing(./section10/README.MD "스프링 구루")
+### [Section 10 : 스프링 부트 Testing](./section10/README.MD "스프링 구루")
+
 <br />
 
 
