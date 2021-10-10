@@ -1,5 +1,7 @@
 package guru.springframework.petclinic.model;
 
+import lombok.*;
+
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
