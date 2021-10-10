@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="133f2a81-0b9f-4505-a861-8e8fcd314fb4" name="Changes" comment="Display List of Authors">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/spring5/section2/Section2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/spring5/section2/bootstrap/BootStrapData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/spring5/section2/controllers/AuthorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/spring5/section2/controllers/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/spring5/section2/domain/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/spring5/section2/domain/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/spring5/section2/domain/Publisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/spring5/section2/repositories/AuthorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/spring5/section2/repositories/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/spring5/section2/repositories/PublisherRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/authors/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/books/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/spring5/section2/Section2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/Section3Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/controllers/ConstructorInjectedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/controllers/I18nController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/controllers/MyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/controllers/PropertyInjectedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/controllers/SetterInjectedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/services/ConstructorGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/services/CustomBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/services/GreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/services/I18nEnglishGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/services/I18nKoreanGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/services/I18nSpanishGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/services/LifeCycleDemoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/services/PrimaryGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/services/PropertyInjectedGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/java/guru/spring5/section3/services/SetterInjectedGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/test/java/guru/spring5/section3/Section3ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/test/java/guru/spring5/section3/controllers/ConstructorInjectedControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/test/java/guru/spring5/section3/controllers/PropertyInjectedControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/src/test/java/guru/spring5/section3/controllers/SetterInjectedControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/java/com/learn/spring5/section4/Section4Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/java/com/learn/spring5/section4/controllers/JokesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/java/com/learn/spring5/section4/repositories/JokeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/java/com/learn/spring5/section4/services/JokeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/java/com/learn/spring5/section4/services/JokeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/resources/static/css/main/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/resources/static/css/main/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/resources/static/img/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/resources/static/img/img-src.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/resources/static/img/screenshot.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/resources/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/src/test/java/com/learn/spring5/section4/Section4ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/com/springframework/pets/CatPetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/com/springframework/pets/DogPetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/com/springframework/pets/PetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/com/springframework/pets/PetServiceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/Section5Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/config/GreetingServiceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/controllers/ConstructorInjectedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/controllers/I18nController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/controllers/MyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/controllers/PetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/controllers/PropertyInjectedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/controllers/SetterInjectedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/repositories/EnglishGreetingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/repositories/EnglishGreetingRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/ConstructorGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/CustomBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/GreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/I18nEnglishGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/I18nKoreanGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/I18nSpanishGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/LifeCycleDemoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/PrimaryGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/PropertyInjectedGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/PrototypeBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/SetterInjectedGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/java/org/springframework/boot/section5/services/SingletonBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/main/resources/sfgdi-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section5/src/test/java/org/springframework/boot/section5/Section5ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/com/springframework/pets/CatPetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/com/springframework/pets/DogPetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/com/springframework/pets/PetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/com/springframework/pets/PetServiceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/Section6Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/config/GreetingServiceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/config/SfgConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/config/SfgConstructorConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/controllers/ConstructorInjectedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/controllers/I18nController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/controllers/MyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/controllers/PetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/controllers/PropertyInjectedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/controllers/SetterInjectedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/datasource/FakeDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/repositories/EnglishGreetingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/repositories/EnglishGreetingRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/ConstructorGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/CustomBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/GreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/I18nEnglishGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/I18nKoreanGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/I18nSpanishGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/LifeCycleDemoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/PrimaryGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/PropertyInjectedGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/PrototypeBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/SetterInjectedGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/java/org/springframework/boot/section6/services/SingletonBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/resources/application-qa.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/main/resources/sfgdi-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section6/src/test/java/org/springframework/boot/section6/Section6ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/src/main/java/com/learn/spring/section7/Section7Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/src/main/java/com/learn/spring/section7/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section7/src/test/java/com/learn/spring/section7/Section7ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/Section8Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/bootstrap/DataLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/domain/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/domain/Difficulty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/domain/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/domain/Notes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/domain/Recipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/domain/UnitOfMeasure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/repositories/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/repositories/RecipeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/repositories/UnitOfMeasureRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/service/RecipeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/java/com/learn/spring/section8/service/UnitOfMeasureService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/resources/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/resources/static/img/h2_console.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/resources/static/img/jhipster_jdl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/resources/templates/fragment/head-frag.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/resources/templates/fragment/header-frag.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section8/src/test/java/com/learn/spring/section8/Section8ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/Section9Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/bootstrap/DataLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/domain/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/domain/Difficulty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/domain/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/domain/Notes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/domain/Recipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/domain/UnitOfMeasure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/repositories/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/repositories/RecipeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/repositories/UnitOfMeasureRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/service/RecipeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/java/com/learn/spring/section9/service/UnitOfMeasureService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/resources/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/resources/static/img/lombok1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/resources/static/img/lombok2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/resources/templates/fragment/head-frag.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/resources/templates/fragment/header-frag.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/src/test/java/com/learn/spring/section9/Section9ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yZh3d01GVj3G81TlJCNZACZJwX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../section02" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\spring-btog-udemy\section2\src\main\resources\templates\authors" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\spring-btog-udemy\section2\src\main\resources\templates" />
+      <recent name="C:\spring-btog-udemy\section2\src\main\resources\templates\books" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="guru.spring5.section2.domain" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Section2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="section02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.spring5.section2.Section2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="133f2a81-0b9f-4505-a861-8e8fcd314fb4" name="Changes" comment="" />
+      <created>1632464821285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632464821285</updated>
+      <workItem from="1632464822639" duration="14414000" />
+      <workItem from="1632533020817" duration="889000" />
+      <workItem from="1632554264657" duration="713000" />
+      <workItem from="1633846332261" duration="132000" />
+    </task>
+    <task id="LOCAL-00001" summary="JPA Entities">
+      <created>1632467663039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632467663039</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Equality in Hibernate">
+      <created>1632476733332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632476733332</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Spring Data Repositories">
+      <created>1632477817891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632477817891</updated>
+    </task>
+    <task id="LOCAL-00004" summary=" Initializing Data with Spring">
+      <created>1632479244494</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632479244494</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Publisher Relationships">
+      <created>1632494071406</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632494071406</updated>
+    </task>
+    <task id="LOCAL-00006" summary="H2 Database Console">
+      <created>1632494457462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632494457462</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Configuring Spring MVC Controllers">
+      <created>1632496786952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632496786952</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Thymeleaf Templates">
+      <created>1632497672550</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632497672550</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Display List of Authors">
+      <created>1632498284561</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1632498284561</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="JPA Entities" />
+    <MESSAGE value="Equality in Hibernate" />
+    <MESSAGE value="Spring Data Repositories" />
+    <MESSAGE value=" Initializing Data with Spring" />
+    <MESSAGE value="Publisher Relationships" />
+    <MESSAGE value="H2 Database Console" />
+    <MESSAGE value="Configuring Spring MVC Controllers" />
+    <MESSAGE value="Thymeleaf Templates" />
+    <MESSAGE value="Display List of Authors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Display List of Authors" />
+  </component>
+</project>
