@@ -4,13 +4,16 @@ import com.learn.spring.section9.domain.*;
 import com.learn.spring.section9.service.CategoryService;
 import com.learn.spring.section9.service.RecipeService;
 import com.learn.spring.section9.service.UnitOfMeasureService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import javax.transaction.Transactional;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 @Component
 public class DataLoader implements CommandLineRunner {
 
@@ -25,8 +28,10 @@ public class DataLoader implements CommandLineRunner {
     }
 
     @Override
+    @Transactional
     public void run(String... args) throws Exception {
         recipeService.saveAll(getRecipes());
+        log.debug("Loading Bootstrap Data");
     }
 
     private List<Recipe> getRecipes() {
