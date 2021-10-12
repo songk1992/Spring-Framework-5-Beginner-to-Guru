@@ -6,30 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Header -->
     <th:block th:insert ="fragment/head-frag :: headFragment"></th:block >
+    <!-- item CSS -->
+    <link th:href="@{/css/food-info.css}" rel="stylesheet">
+
     <meta charset="UTF-8">
     <title>index</title>
 </head>
 <body>
 
 <!-- header fragment 사용 -->
-<!-- th:block th:replace="fragment/header-frag :: headerFragment"></th:block -->
+<th:block th:replace="fragment/header-frag :: headerFragment"></th:block>
 
-<table>
-    <tr>
-        <th>ID</th>
-        <th>Description</th>
-        <th>url</th>
-        <th>Directions</th>
-    </tr>
-
-    <tr th:each="recipe : ${recipes}">
-        <td th:text="${recipe.id}"></td>
-        <td th:text="${recipe.description}"></td>
-        <td th:text="${recipe.url}"></td>
-        <td th:text="${recipe.directions}"></td>
-    </tr>
-</table>
-
+<section th:each="recipe : ${recipes}" id="food-intro-area">
+    <div class="outer-flex-area">
+        <div class="inner-flex-area">
+            <img th:src="@{/img/{id}.jpg(id=${recipe.id})}">
+            <div class="text-box">
+                <h4 th:text="|${recipe.id}, ${recipe.description}|"></h4>
+                <p th:text="${recipe.url}"></p>
+                <p th:text="${recipe.directions}"></p>
+            </div>
+        </div>
+    </div>
+</section>
 
 </body>
 </html>

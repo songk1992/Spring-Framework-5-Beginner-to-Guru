@@ -29,7 +29,7 @@ public class DataLoader implements CommandLineRunner {
 
     @Override
     @Transactional
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         recipeService.saveAll(getRecipes());
         log.debug("Loading Bootstrap Data");
     }
@@ -65,8 +65,7 @@ public class DataLoader implements CommandLineRunner {
          "                        생강, 마늘은 껍질을 벗겨 씻어 물기를 빼서 절구에 다지고 새우젓은 건더기만 건져 굵게 다지고 젓국은 남긴다.\n" +
          "                        생굴은 껍질을 골라내고 슴슴한 소금물에 헹궈 씻어 건진다.\n" +
          "                        생새우는 티를 골라내고 씻어 물기를 뺀 후 분마기에 곱게 간다.\n" +
-         "                        고춧가루를 따뜻한 물에 불린 후 새우젓국, 멸치젓국을 넣어 더 불게 둔다.\n"+
-                        "출처 https://ko.wikibooks.org/wiki/%EA%B9%80%EC%B9%98"
+         "                        고춧가루를 따뜻한 물에 불린 후 새우젓국, 멸치젓국을 넣어 더 불게 둔다."
         );
 
         Notes kimchiNote = new Notes();
