@@ -33,21 +33,21 @@ https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
 
 <br />
 
-### [Section 2 : 스프링 부트 앱 만들기](./section2/README.MD "스프링 구루")
+### [Section 2 : 스프링 부트 앱 만들기](./section02/README.MD "스프링 구루")
 
-### [Section 3 : 스프링 부트 Dependency Injection](./section3/README.MD "스프링 구루")
+### [Section 3 : 스프링 부트 Dependency Injection](./section03/README.MD "스프링 구루")
 
-### [Section 4 : 스프링 부트 Chuck Norris Joke Generator](./section4/README.MD "스프링 구루")
+### [Section 4 : 스프링 부트 Chuck Norris Joke Generator](./section04/README.MD "스프링 구루")
 
-### [Section 5 : 스프링 부트 Three Different Configurations](./section5/README.MD "스프링 구루")
+### [Section 5 : 스프링 부트 Three Different Configurations](./section05/README.MD "스프링 구루")
 
-### [Section 6 : 스프링 부트 External Properties](./section6/README.MD "스프링 구루")
+### [Section 6 : 스프링 부트 External Properties](./section06/README.MD "스프링 구루")
 
-### [Section 7 : 스프링 부트 Web MVC](./section7/README.MD "스프링 구루")
+### [Section 7 : 스프링 부트 Web MVC](./section07/README.MD "스프링 구루")
 
-### [Section 8 : 스프링 부트 JPA](./section8/README.MD "스프링 구루")
+### [Section 8 : 스프링 부트 JPA](./section08/README.MD "스프링 구루")
 
-### [Section 9 : 스프링 부트 Lombok](./section9/README.MD "스프링 구루")
+### [Section 9 : 스프링 부트 Lombok](./section09/README.MD "스프링 구루")
 
 ### [Section 10 : 스프링 부트 Testing](./section10/README.MD "스프링 구루")
 
