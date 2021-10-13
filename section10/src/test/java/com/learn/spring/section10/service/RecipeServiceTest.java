@@ -27,7 +27,7 @@ class RecipeServiceTest {
     }
 
     @Test
-    public void getRecipes() {
+    public void getRecipesTest() {
         Recipe recipe = new Recipe();
         HashSet<Recipe> receipesData = new HashSet<>();
         receipesData.add(recipe);
