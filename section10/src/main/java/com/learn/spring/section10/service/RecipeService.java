@@ -1,10 +1,10 @@
 package com.learn.spring.section10.service;
 
+import com.google.common.collect.Lists;
 import com.learn.spring.section10.domain.Recipe;
 import com.learn.spring.section10.repositories.RecipeRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import com.google.common.collect.Lists;
 
 import java.util.HashSet;
 import java.util.List;

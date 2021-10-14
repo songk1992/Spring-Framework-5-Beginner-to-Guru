@@ -1,7 +1,6 @@
 package com.learn.spring.section10.service;
 
 import com.learn.spring.section10.domain.Category;
-import com.learn.spring.section10.domain.UnitOfMeasure;
 import com.learn.spring.section10.repositories.CategoryRepository;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +17,7 @@ public class CategoryService {
 
     public Category findByDescription(String categoryNameStr) {
         Optional<Category> categoryOptionalOptional = categoryRepository.findByDescription(categoryNameStr);
-        if(categoryOptionalOptional.isEmpty()){
+        if (categoryOptionalOptional.isEmpty()) {
             throw new RuntimeException("Expected UOM not found");
         }
         return categoryOptionalOptional.get();

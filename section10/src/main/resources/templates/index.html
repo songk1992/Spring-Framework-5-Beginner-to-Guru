@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <!-- Header -->
-    <th:block th:insert ="fragment/head-frag :: headFragment"></th:block >
+    <th:block th:insert="fragment/head-frag :: headFragment"></th:block>
     <!-- item CSS -->
-    <link th:href="@{/css/food-info.css}" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/food-info.css}">
 
     <meta charset="UTF-8">
     <title>index</title>
@@ -17,7 +17,7 @@
 <!-- header fragment 사용 -->
 <th:block th:replace="fragment/header-frag :: headerFragment"></th:block>
 
-<section th:each="recipe : ${recipes}" id="food-intro-area">
+<section id="food-intro-area" th:each="recipe : ${recipes}">
     <div class="outer-flex-area">
         <div class="inner-flex-area">
             <img th:src="@{/img/{id}.jpg(id=${recipe.id})}">

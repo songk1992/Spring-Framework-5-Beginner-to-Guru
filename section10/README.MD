@@ -1,6 +1,5 @@
 # 스프링5 스터디용 프로젝트
 
-
 <br />
 This source code is based from<br />
 Spring Framework 5: Beginner to Guru in Udemy by John Thompson.<br />
@@ -13,7 +12,6 @@ https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
 
 <br />
 <br />
-
 
 # 📓 출처
 

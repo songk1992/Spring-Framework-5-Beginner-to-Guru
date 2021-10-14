@@ -1,6 +1,6 @@
 package com.learn.spring.section10.domain;
 
-import lombok.*;
+import lombok.Data;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -26,7 +26,7 @@ public class Recipe {
     @Lob
     private String directions;
 
-    @OneToMany(cascade = CascadeType.ALL,mappedBy = "recipe")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "recipe")
     private Set<Ingredient> ingredient = new HashSet<>();
 
     @Lob
@@ -41,7 +41,7 @@ public class Recipe {
     @ManyToMany
     @JoinTable(name = "recipe_category", joinColumns = @JoinColumn(name = "recipe_id"),
             inverseJoinColumns = @JoinColumn(name = "category_id"))
-    private Set<Category> categories  = new HashSet<>();
+    private Set<Category> categories = new HashSet<>();
 
     /* Override Lombok */
     public void setNotes(Notes notes) {
