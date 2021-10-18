@@ -15,7 +15,7 @@ import static org.mockito.Mockito.*;
 
 class RecipeServiceTest {
 
-    RecipeService recipeService;
+    RecipeServiceImpl recipeService;
 
     @Mock
     RecipeRepository recipeRepository;
@@ -23,7 +23,7 @@ class RecipeServiceTest {
     @BeforeEach
     public void setUp() {
         MockitoAnnotations.initMocks(this);
-        recipeService = new RecipeService(recipeRepository);
+        recipeService = new RecipeServiceImpl(recipeRepository);
     }
 
     @Test
