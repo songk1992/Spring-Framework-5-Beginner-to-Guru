@@ -39,9 +39,8 @@ public class DataLoader implements CommandLineRunner {
         List<Recipe> recipes = new ArrayList<>();
 
         /* 단위 uom */
-
-
         UnitOfMeasure eachUom = unitOfMeasureService.findByDescription("Each");
+        UnitOfMeasure gram = unitOfMeasureService.findByDescription("g");
 
         /* 카테고리 category */
         Category koreanCategory = categoryService.findByDescription("Korean");
@@ -95,7 +94,10 @@ public class DataLoader implements CommandLineRunner {
 
         kimchiRecipe.getCategories().add(koreanCategory);
 
-        kimchiRecipe.getIngredient().add(new Ingredient("배추", new BigDecimal(1), eachUom));
+        kimchiRecipe.getIngredients().add(new Ingredient("배추", new BigDecimal(1), eachUom, kimchiRecipe));
+        kimchiRecipe.getIngredients().add(new Ingredient("쪽파", new BigDecimal(400), gram, kimchiRecipe));
+        kimchiRecipe.getIngredients().add(new Ingredient("생굴", new BigDecimal(400), gram, kimchiRecipe));
+        kimchiRecipe.getIngredients().add(new Ingredient("생굴", new BigDecimal(250), gram, kimchiRecipe));
 
         kimchiRecipe.getCategories().add(koreanCategory);
 

@@ -27,7 +27,7 @@ public class Recipe {
     private String directions;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "recipe")
-    private Set<Ingredient> ingredient = new HashSet<>();
+    private Set<Ingredient> ingredients = new HashSet<>();
 
     @Lob
     private Byte[] image;
@@ -52,7 +52,7 @@ public class Recipe {
     /* Override Lombok */
     public Recipe addIngredient(Ingredient ingredient) {
         ingredient.setRecipe(this);
-        this.ingredient.add(ingredient);
+        this.ingredients.add(ingredient);
         return this;
     }
 
