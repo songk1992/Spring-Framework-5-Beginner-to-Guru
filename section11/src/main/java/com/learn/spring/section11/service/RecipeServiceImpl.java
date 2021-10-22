@@ -35,6 +35,12 @@ public class RecipeServiceImpl implements RecipeService {
     }
 
     @Override
+    @Transactional
+    public RecipeCommand findCommandById(Long l) {
+        return recipeToRecipeCommand.convert(findById(l));
+    }
+
+    @Override
     public Set<Recipe> getRecipes() {
         log.debug("I'm in the service");
         Set<Recipe> recipeSet = new HashSet<>();
@@ -56,6 +62,8 @@ public class RecipeServiceImpl implements RecipeService {
     @Transactional
     public RecipeCommand saveRecipeCommand(RecipeCommand command) {
         Recipe detachedRecipe = recipeCommandToRecipe.convert(command);
-        return null;
+        Recipe savedRecipe = recipeRepository.save(detachedRecipe);
+        log.debug("Saved Recipe : " + savedRecipe.getId());
+        return recipeToRecipeCommand.convert(savedRecipe);
     }
 }

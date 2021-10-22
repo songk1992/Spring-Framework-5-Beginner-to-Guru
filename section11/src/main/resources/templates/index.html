@@ -25,6 +25,7 @@
                 <h4 th:text="|${recipe.id}, ${recipe.description}|"></h4>
                 <p th:text="${recipe.url}"></p>
                 <p th:text="${recipe.directions}"></p>
+                <td><a href="#" th:href="@{'/recipe' + ${recipe.id} + 'show'}">View</a></td>
             </div>
         </div>
     </div>
