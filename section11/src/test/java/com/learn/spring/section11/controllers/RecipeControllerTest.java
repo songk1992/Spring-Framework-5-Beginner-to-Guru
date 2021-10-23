@@ -74,7 +74,7 @@ class RecipeControllerTest {
     @Test
     public void testGetUpdateView() throws Exception {
         RecipeCommand command = new RecipeCommand();
-        command.setId(2L);
+        command.setId(1L);
 
         when(recipeService.findCommandById(anyLong())).thenReturn(command);
 
