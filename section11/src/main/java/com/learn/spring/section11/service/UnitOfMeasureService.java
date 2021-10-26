@@ -1,25 +1,14 @@
 package com.learn.spring.section11.service;
 
+import com.learn.spring.section11.commands.UnitOfMeasureCommand;
 import com.learn.spring.section11.domain.UnitOfMeasure;
-import com.learn.spring.section11.repositories.UnitOfMeasureRepository;
-import org.springframework.stereotype.Service;
 
-import java.util.Optional;
+import java.util.Set;
 
-@Service
-public class UnitOfMeasureService {
+public interface UnitOfMeasureService {
 
-    final UnitOfMeasureRepository unitOfMeasureRepository;
+    Set<UnitOfMeasureCommand> listAllUoms();
 
-    public UnitOfMeasureService(UnitOfMeasureRepository unitOfMeasureRepository) {
-        this.unitOfMeasureRepository = unitOfMeasureRepository;
-    }
+    UnitOfMeasure findByDescription(String each);
 
-    public UnitOfMeasure findByDescription(String uomDescriptionStr) {
-        Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription(uomDescriptionStr);
-        if (uomOptional.isEmpty()) {
-            throw new RuntimeException("Expected UOM not found");
-        }
-        return uomOptional.get();
-    }
 }
