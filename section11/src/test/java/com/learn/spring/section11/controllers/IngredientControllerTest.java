@@ -10,6 +10,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
@@ -96,5 +97,30 @@ public class IngredientControllerTest {
     public void testUpdateIngredientForm() throws Exception{
         // given
         IngredientCommand ingredientCommand = new IngredientCommand();
+    }
+
+    @Test
+    public void testDeleteIngredient1() throws Exception{
+        // then
+        mockMvc.perform(get("/recipe/1/ingredient/2/delete")
+                .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+                .param("id", "")
+                .param("description", "some string")
+                )
+                .andExpect(status().is3xxRedirection())
+                .andExpect(view().name("redirect:/recipe/1/ingredients"));
+
+    }
+
+    @Test
+    public void testDeleteIngredient2() throws Exception{
+
+        // then
+        mockMvc.perform(get("/recipe/1/ingredient/1/delete"))
+                .andExpect(status().is3xxRedirection())
+                .andExpect(view().name("redirect:/recipe/1/ingredients"));
+
+        verify(ingredientService, times(1)).deleteById(anyLong(), anyLong());
+
     }
 }
