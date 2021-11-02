@@ -1,6 +1,5 @@
 package guru.springframework.petclinic.controllers;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import guru.springframework.petclinic.model.Owner;
 import guru.springframework.petclinic.services.OwnerService;
 import org.springframework.stereotype.Controller;
@@ -63,7 +62,7 @@ public class OwnerController {
         } else {
             // multiple owners found
             model.put("selections", results);
-            return "owners/ownersList";
+            return "owners/ownerList";
         }
     }
 
