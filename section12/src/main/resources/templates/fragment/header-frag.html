@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+</head>
+<!--referenced from https://codepen.io/andiio/pen/gspxJ-->
+<!--headerFragment 선언-->
+<th:div id="header-nav" th:fragment="headerFragment">
+    <div class="container">
+        <div class="brand">
+            <a href="/"><h1>Name</h1></a>
+        </div>
+        <a class="menu-link" href="#menu">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+        </a>
+        <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</th:div>
+</html>
