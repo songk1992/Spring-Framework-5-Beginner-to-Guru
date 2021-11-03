@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!-- Header -->
+    <th:block th:insert="fragment/head-frag :: headFragment"></th:block>
+    <!-- item CSS -->
+
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+
+<!-- header fragment 사용 -->
+<th:block th:replace="fragment/header-frag :: headerFragment"></th:block>
+
+<!-- TODO 추후 CSS 외부로 이동 -->
+<section style="margin: 200px auto 0; font-size: 40px">
+    404 Not found
+</section>
+
+
+</body>
+</html>

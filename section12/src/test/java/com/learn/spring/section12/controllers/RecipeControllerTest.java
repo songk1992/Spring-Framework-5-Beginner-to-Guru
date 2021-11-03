@@ -2,6 +2,7 @@ package com.learn.spring.section12.controllers;
 
 import com.learn.spring.section12.commands.RecipeCommand;
 import com.learn.spring.section12.domain.Recipe;
+import com.learn.spring.section12.exceptions.NotFoundException;
 import com.learn.spring.section12.service.RecipeServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -44,6 +45,15 @@ class RecipeControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(view().name("recipe/show"));
     }
+
+    @Test
+    public void testGetRecipeNotFound() throws Exception{
+        when(recipeService.findById(anyLong())).thenThrow(NotFoundException.class);
+        mockMvc.perform(get("/recipe/1/show"))
+                .andExpect(status().isNotFound())
+                .andExpect(view().name("404error"));
+    }
+
 
     @Test
     public void testGetNewRecipeForm() throws Exception {
