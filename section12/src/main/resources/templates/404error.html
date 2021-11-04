@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8"/>
     <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
@@ -19,6 +19,7 @@
 <!-- TODO 추후 CSS 외부로 이동 -->
 <section style="margin: 200px auto 0; font-size: 40px">
     404 Not found
+    <span style="display: block; font-size: 20px" th:text="${exception.getMessage()}"></span>
 </section>
 
 
