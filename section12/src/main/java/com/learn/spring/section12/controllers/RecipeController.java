@@ -25,7 +25,7 @@ public class RecipeController {
         // TODO 삭제
         // if (!id.chars().allMatch(Character::isDigit)) {
         // throw new NumberFormatException("Number format exception" + id + "is not a number");
-        //  }
+        //        }
         model.addAttribute("recipe", recipeService.findById(Long.valueOf(id)));
         return "recipe/show";
     }
@@ -69,15 +69,16 @@ public class RecipeController {
         return modelAndView;
     }
 
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(NumberFormatException.class)
-    public ModelAndView numberFormatException(Exception exception) {
-        log.error("Number format exception");
-        log.error(exception.getMessage());
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("400error");
-        modelAndView.addObject("exception", exception);
-        return modelAndView;
-    }
+    //ControllerExceptionHandler로 이동 TODO 삭제
+//    @ResponseStatus(HttpStatus.BAD_REQUEST)
+//    @ExceptionHandler(NumberFormatException.class)
+//    public ModelAndView numberFormatException(Exception exception) {
+//        log.error("Number format exception");
+//        log.error(exception.getMessage());
+//        ModelAndView modelAndView = new ModelAndView();
+//        modelAndView.setViewName("400error");
+//        modelAndView.addObject("exception", exception);
+//        return modelAndView;
+//    }
 
 }
