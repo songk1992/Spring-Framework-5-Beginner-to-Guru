@@ -48,9 +48,8 @@ public class RecipeController {
     }
 
     /* 예전 방법 @RequestMapping(name="recipe", method = RequestMethod.POST) */
-    @PostMapping
-    @RequestMapping("recipe")
-    public String saveOrUpdate(@Valid @ModelAttribute RecipeCommand command, BindingResult bindingResult) {
+    @PostMapping("recipe")
+    public String saveOrUpdate(@Valid @ModelAttribute("recipe") RecipeCommand command, BindingResult bindingResult) {
 
         if(bindingResult.hasErrors()){
             bindingResult.getAllErrors().forEach(objectError -> {
