@@ -40,15 +40,16 @@ class VisitControllerTest {
     }
 
 
-//    @Test
-//    void initNewVisitForm() throws Exception {
-//        mockMvc.perform(get("/owners/*/pets/1/visits/new"))
-//                .andExpect(status().isOk())
-//                .andExpect(model().attributeExists("pet"))
-//                .andExpect(view().name("pets/createOrUpdateVisistForm"));
-//    }
-//
-//    @Test
-//    void processNewVisitForm() {
-//    }
+    @Test
+    void initNewVisitForm() throws Exception {
+        mockMvc.perform(get("/owners/*/pets/1/visits/new"))
+                .andExpect(status().isOk())
+                .andExpect(model().attributeExists("pet"))
+                .andExpect(view().name("pets/createOrUpdateVisistForm"));
+    }
+
+    @Test
+    void processNewVisitForm() throws Exception{
+
+    }
 }
